@@ -1,0 +1,16 @@
+{% extends '@insead/layout.html.twig' %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="row">
+            <a class="waves-effect waves-light btn-large btn_custom btn_custom_interest col s4 offset-s4 btn_1 align-center" href="{{ path('insead_list') }}">List</a>
+        </div>
+        <div class="row">
+            <div class="col offset-m2 offset-l4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50310.55762756656!2d23.703234140639573!3d37.99089962767043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2zQXRow6huZXMsIEdyw6hjZQ!5e0!3m2!1sfr!2sfr!4v1495568092900"
+                width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+{% endblock %}
