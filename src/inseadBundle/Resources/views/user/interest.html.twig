@@ -1,0 +1,47 @@
+{% extends '@insead/layout.html.twig' %}
+
+{% block body%}
+
+    <h3 class="title center_title">TELL US MORE ABOUT YOU</h3>
+    <h4 class="title center_title">Interest</h4>
+
+    <div class="container">
+        <div class="row">
+            <form action="#">
+                <div class="col l3 offset-s4 offset-m5 offset-l5">
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test1" />
+                        <label for="test1">Food and Drinks</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test2" />
+                        <label for="test2">Landmark</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test3" />
+                        <label for="test3">Meuseum</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test4" />
+                        <label for="test4">Activities</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test5" />
+                        <label for="test5">Fitness</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test6" />
+                        <label for="test6">Art</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="test7" />
+                        <label for="test7">Shhopping</label>
+                    </p>
+                </div>
+                <a class="waves-effect waves-light btn-large btn_custom btn_custom_interest col s4 offset-s4 btn_1 align-center" href="{{ path('insead_list') }}">Validate</a>
+
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
