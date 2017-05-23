@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+    <div class="parallax-container">
+        <div class="container">
+            <div class="row logo">
+                <img class="col l4 m6 s12 offset-l4 offset-m3 center-align" src="{{ asset('bundles/insead/img/Soloista Logo.png') }}">
+            </div>
+        </div>
+        <div class="parallax"><img src="{{ asset('bundles/insead/img/insead-image-2.jpg') }}"></div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <p class="col s12 center-align title">Make new friends and explore the world.</p>
+        </div>
+        <div class="row">
+            <p class="col s12 center-align title">Connect with local and female travelers safely.</p>
+        </div>
+    </div>
+    <div class="row btn_home">
+    <a class="waves-effect waves-light btn btn_custom col l2 s3 offset-s4 offset-l5">Next</a>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="{{ asset('bundles/insead/img/insead-image.jpg') }}"></div>
+    </div>
+
+{% endblock %}
