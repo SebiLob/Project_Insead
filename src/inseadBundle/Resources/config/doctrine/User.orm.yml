@@ -6,3 +6,23 @@ inseadBundle\Entity\User:
             type: integer
             generator:
                 strategy: AUTO
+    fields:
+        firstname:
+            type: string
+            lenght: 255
+
+        secondname:
+            type: string
+            lenght: 255
+
+        languages:
+            type: string
+            lenght: 255
+
+        age:
+            type: string
+            lenght: 255
+
+        nationality:
+            type: string
+            lenght: 255

@@ -27,6 +27,6 @@ insead_map:
     defaults: { _controller: inseadBundle:map:index }
 
 insead_profile:
-    path:     /profile
+    path:     /usr
     defaults: { _controller: inseadBundle:profile:index }
 
