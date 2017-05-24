@@ -1,0 +1,19 @@
+inseadBundle\Entity\createTrip:
+    type: entity
+    table: null
+    repositoryClass: inseadBundle\Repository\createTripRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        place:
+            type: string
+            length: 255
+        start:
+            type: datetime
+        end:
+            type: datetime
+    lifecycleCallbacks: {  }

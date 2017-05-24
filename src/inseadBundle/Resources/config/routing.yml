@@ -1,0 +1,32 @@
+insead_homepage:
+    path:     /
+    defaults: { _controller: inseadBundle:homePage:index }
+
+insead_menu:
+    path:     /menu
+    defaults: { _controller: inseadBundle:menu:index }
+
+insead_trip:
+    path:     /trip
+    defaults: { _controller: inseadBundle:PlanTrip:index }
+
+insead_search_trip:
+    path:     /search/trip
+    defaults: { _controller: inseadBundle:searchTrip:index }
+
+insead_interest:
+    path:     /interest
+    defaults: { _controller: inseadBundle:interest:index }
+
+insead_list:
+    path:     /list
+    defaults: { _controller: inseadBundle:list:index }
+
+insead_map:
+    path:     /map
+    defaults: { _controller: inseadBundle:map:index }
+
+insead_profile:
+    path:     /usr
+    defaults: { _controller: inseadBundle:profile:index }
+

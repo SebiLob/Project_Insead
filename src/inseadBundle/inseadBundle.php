@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace inseadBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class inseadBundle extends Bundle
 {
 }
