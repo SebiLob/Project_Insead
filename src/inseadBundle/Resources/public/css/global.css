@@ -177,6 +177,7 @@ input[type="text"], input[type="date"] {
 }
 
 
+
 /*---------------------------------------*/
 /*----------  7-RESPONSIVE  -------------*/
 /*---------------------------------------*/
@@ -184,4 +185,5 @@ input[type="text"], input[type="date"] {
 
 .nav_custom {
     font-size: 20px;
+
 }
