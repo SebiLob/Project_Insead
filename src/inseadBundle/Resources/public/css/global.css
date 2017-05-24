@@ -172,8 +172,6 @@ input[type="text"], input[type="date"] {
 /*---------------------------------------*/
 
 
-@media #{$small-and-down} {
-    * {
-
-    }
+.nav_custom {
+    font-size: 48px;
 }
