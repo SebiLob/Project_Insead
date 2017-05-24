@@ -8,7 +8,7 @@ insead_menu:
 
 insead_trip:
     path:     /trip
-    defaults: { _controller: inseadBundle:PlanTrip:index }
+    defaults: { _controller: inseadBundle:PlanTrip:addTrip }
 
 insead_search_trip:
     path:     /search/trip
