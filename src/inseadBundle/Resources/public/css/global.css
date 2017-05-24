@@ -26,10 +26,6 @@
 /*-------------  6-PROFILE  -------------*/
 /*---------------------------------------*/
 
-/*---------------------------------------*/
-/*----------  7-RESPONSIVE  -------------*/
-/*---------------------------------------*/
-
 /*____________________________________________________________________________________________________________________*/
 
 /*---------------------------------------*/
@@ -38,7 +34,7 @@
 
 * {
     color: black !important;
-    font-size: 54px;
+    font-size: 20px;
 }
 
 body {
@@ -48,7 +44,6 @@ body {
 
 .btn_custom {
     background-color: #E8969E;
-    font-size: 48px;
 }
 
 .btn_custom_2 {
@@ -75,7 +70,7 @@ body {
 
 
 .title {
-    font-size: 74px;
+    font-size: 30px;
 
 }
 
@@ -113,12 +108,12 @@ body {
 input[type="text"], input[type="date"] {
     color: black;
     border-bottom: 1px solid #E8969E !important;
-    font-size: 54px;
+    font-size: 20px;
 }
 
 .form_trip_label {
     color: black;
-    font-size: 54px;
+    font-size: 24px;
 }
 
 .center_title {
@@ -154,7 +149,6 @@ input[type="text"], input[type="date"] {
 
 .li_custom_2 {
     padding-bottom: 10px;
-    font-size: 48px !important;
 }
 
 
@@ -167,11 +161,6 @@ input[type="text"], input[type="date"] {
 }
 
 
-/*---------------------------------------*/
-/*----------  7-RESPONSIVE  -------------*/
-/*---------------------------------------*/
+.container_register {
 
-
-.nav_custom {
-    font-size: 48px;
 }
