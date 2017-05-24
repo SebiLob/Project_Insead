@@ -26,6 +26,10 @@
 /*-------------  6-PROFILE  -------------*/
 /*---------------------------------------*/
 
+/*---------------------------------------*/
+/*----------  7-RESPONSIVE  -------------*/
+/*---------------------------------------*/
+
 /*____________________________________________________________________________________________________________________*/
 
 /*---------------------------------------*/
@@ -34,16 +38,17 @@
 
 * {
     color: black !important;
-    font-size: 20px;
+    font-size: 54px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
     background-color: #F5DBCB;
-    font-family: 'Indie Flower', cursive;
 }
 
 .btn_custom {
     background-color: #E8969E;
+    font-size: 38px;
 }
 
 .btn_custom_2 {
@@ -63,6 +68,13 @@ body {
     background-color: #E8969E
 }
 
+.nav_custom_2 {
+    font-size: 38px !important;
+}
+
+.size_custom {
+    font-size: 48px !important;
+}
 
 /*---------------------------------------*/
 /*-----------  2-HOMEPAGE  --------------*/
@@ -70,8 +82,11 @@ body {
 
 
 .title {
-    font-size: 30px;
+    font-size: 74px;
+}
 
+.title_2 {
+    font-size: 70px;
 }
 
 .logo {
@@ -108,12 +123,12 @@ body {
 input[type="text"], input[type="date"] {
     color: black;
     border-bottom: 1px solid #E8969E !important;
-    font-size: 20px;
+    font-size: 54px;
 }
 
 .form_trip_label {
     color: black;
-    font-size: 24px;
+    font-size: 54px;
 }
 
 .center_title {
@@ -136,7 +151,7 @@ input[type="text"], input[type="date"] {
 
 .icon_custom {
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .usr_custom {
@@ -149,6 +164,7 @@ input[type="text"], input[type="date"] {
 
 .li_custom_2 {
     padding-bottom: 10px;
+    font-size: 48px !important;
 }
 
 
@@ -161,6 +177,11 @@ input[type="text"], input[type="date"] {
 }
 
 
-.container_register {
+/*---------------------------------------*/
+/*----------  7-RESPONSIVE  -------------*/
+/*---------------------------------------*/
 
+
+.nav_custom {
+    font-size: 48px;
 }

@@ -7,4 +7,12 @@
     {% if targetUrl %}
     <p><a href="{{ targetUrl }}">{{ 'registration.back'|trans }}</a></p>
     {% endif %}
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <a type="submit" class="waves-effect waves-red btn btn_custom col l2 s3 offset-s4 offset-l5" href="{{ path('insead_menu') }}">Validate</a>
+            </div>
+        </div>
+    </div>
 {% endblock fos_user_content %}
