@@ -38,7 +38,7 @@
 
 * {
     color: black !important;
-    font-size: 54px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .btn_custom {
     background-color: #E8969E;
-    font-size: 38px;
+    font-size: 20px;
 }
 
 .btn_custom_2 {
@@ -69,11 +69,11 @@ body {
 }
 
 .nav_custom_2 {
-    font-size: 38px !important;
+    font-size: 20px !important;
 }
 
 .size_custom {
-    font-size: 48px !important;
+    font-size: 20px !important;
 }
 
 /*---------------------------------------*/
@@ -82,11 +82,11 @@ body {
 
 
 .title {
-    font-size: 74px;
+    font-size: 26px;
 }
 
 .title_2 {
-    font-size: 70px;
+    font-size: 26px;
 }
 
 .logo {
@@ -123,12 +123,12 @@ body {
 input[type="text"], input[type="date"] {
     color: black;
     border-bottom: 1px solid #E8969E !important;
-    font-size: 54px;
+    font-size: 20px;
 }
 
 .form_trip_label {
     color: black;
-    font-size: 54px;
+    font-size: 20px;
 }
 
 .center_title {
@@ -164,7 +164,7 @@ input[type="text"], input[type="date"] {
 
 .li_custom_2 {
     padding-bottom: 10px;
-    font-size: 48px !important;
+    font-size: 20px !important;
 }
 
 
@@ -183,5 +183,5 @@ input[type="text"], input[type="date"] {
 
 
 .nav_custom {
-    font-size: 48px;
+    font-size: 20px;
 }
