@@ -26,4 +26,3 @@ insead_map:
     path:     /map
     defaults: { _controller: inseadBundle:map:index }
 
-
