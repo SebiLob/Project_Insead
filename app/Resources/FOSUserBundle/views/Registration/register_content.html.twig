@@ -1,5 +1,5 @@
 {% trans_default_domain 'FOSUserBundle' %}
-{% extends 'base.html.twig' %}
+{% extends '@insead/layout.html.twig' %}
 
 {% block register %}
 
@@ -9,7 +9,7 @@
                 {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
                     {{ form_widget(form) }}
                     <div>
-                        <button type="submit" class="waves-effect waves-red btn btn_custom col l2 s3 offset-s4 offset-l5" value="{{ 'registration.submit'|trans }}">Validate</button>
+                        <button type="submit" class="waves-effect waves-red btn btn_custom col l2 s6 offset-s3 offset-l5" value="{{ 'registration.submit'|trans }}">Validate</button>
                     </div>
                 {{ form_end(form) }}
             </div>
