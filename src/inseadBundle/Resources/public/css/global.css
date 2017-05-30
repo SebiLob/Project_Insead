@@ -51,6 +51,10 @@ body {
     font-size: 20px;
 }
 
+.btn_custom_home {
+    margin-top: 15px;
+}
+
 .btn_custom_2 {
     background-color: #F5DBCB;
 }
@@ -65,7 +69,7 @@ body {
 }
 
 .nav_custom {
-    background-color: #E8969E
+    background-color: #E8969E;
 }
 
 .nav_custom_2 {
@@ -75,6 +79,13 @@ body {
 .size_custom {
     font-size: 20px !important;
 }
+
+
+.parallax-container {
+    height: 380px;
+}
+
+
 
 /*---------------------------------------*/
 /*-----------  2-HOMEPAGE  --------------*/
@@ -103,7 +114,7 @@ body {
 /*---------------------------------------*/
 
 .btn_menu {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 
